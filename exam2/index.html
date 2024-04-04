@@ -1,28 +1,206 @@
 <html>
 
 <head>
-    <title>MIS 3033 Exam 2 Spring 2024 ExamCode Rachel Tiong</title>
-    <link rel="icon" href="static/img/head2.png"/>
-    <link rel="stylesheet" href="static/site.css"/>
+    <title>MIS 3033 Exam 2 Spring 2024 QEHK Rachel Tiong</title>
+    <link rel="icon" href="static/img/head2.png" />
+    <link rel="stylesheet" href="static/site.css" />
 
     <style>
+        #first {
+            /*background-color: darkred;*/
+            width: 400px;
+            height: 70px;
+            margin-right: 230px;
+            margin-left: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            align-items: center;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+        }
+
+        #main
+        {
+            /*background-color:pink;*/
+            width:800px;
+            margin-right:auto;
+            margin-left:auto;
+        }
+
+        #header
+        {/*
+            background-color:purple;*/
+            height:80px;
+            display:flex;
+            flex-direction:row;
+            border-style:solid;
+            border-width:1px;
+            border-color: lightgrey;
+            border-radius:5px;
+        }
+
+        #middle {
+            /*background-color: orange;*/
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        #footer {
+            height: 60px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content:right;
+        }
+        
+        .title1
+        {
+            text-transform:uppercase;
+            background-color:lightskyblue;
+            border-radius: 5px;
+        }
+
+
 
     </style>
 </head>
 
 <body>
-    [Exam Code]
-    <img src="static/img/a.svg"style="height:50px;"/>
-    <img src="static/img/b.svg"style="height:50px;"/>
-    <img src="static/img/css.svg"style="height:50px;"/>
-    <img src="static/img/head1.png"style="height:50px;"/>
-    <img src="static/img/head2.png"style="height:50px;"/>
-    <img src="static/img/html.svg"style="height:50px;"/>
-    <img src="static/img/javascript.svg"style="height:50px;"/>
-    <img src="static/img/linkedin.png"style="height:50px;"/>
-    <img src="static/img/logo.svg"style="height:50px;"/>
-    <img src="static/img/sqlite.svg"style="height:50px;"/>
+
+    <div id="first">
+        <div style="width: 200px; height: 70px; justify-content: left; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px; ">
+            <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; margin-top:15px;">
+                <div>
+                    MIS 3033 Exam 2
+                </div>
+                <div>
+                    Rachel Tiong
+                </div>
+                      
+            </div>
+        </div>
+
+        <div style="width: 200px; height: 70px; justify-content: right; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px; ">
+            <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; margin-top:25px;">
+                <div>QEHK</div>
+                
+            </div>
+        </div>
+
+    </div>
+    <div id="main">
+        <div id="header">
+            <div style="display: flex; flex-direction: column; justify-content:center;">
+                <div>
+                    <img src="static/img/head2.png" style="height:60px; border-radius:50%;" />
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; justify-content:center;">
+                Rachel Tiong <br />
+                MIS Student
+            </div>
+
+            <div style="display: flex; flex-direction: column; justify-content:center;">
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="static/img/linkedin.png" style="width:30px;" />
+                </a>
+            </div>
+
+        </div>
+
+        <div id="middle">
+            <div style="width: 280px; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px;">
+                <span class="title1">Recent News</span>
+
+                <ul>
+                    <li>Learned C#</li>
+                    <li>Learned Entity Framework</li>
+                    <li>
+                        Learned 
+                        <img src="static/img/sqlite.svg" style="height:40px;" />
+                    </li>
+                </ul>
+            </div>
+
+            <div style="display:flex; flex-direction:column; ">
+                <div style="width: 510px; height: 110px; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px;">
+                    <span class="title1">About Me</span> <br />
+                    I am a MIS student. I like programming and I am good at C#. I learned Entity Framework to Database Manipulations. I know HTML,
+                    CSS and I started to learn JavaScript. It is fun. Later I will learn C# .NET MVC dynamic web app development
+                    and Web API development. <br />
+                </div>
+
+                <div style="width: 510px; height: 160px; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px;">
+                    <div><span class="title1">Achievements</span></div>
+                    <div style="display: flex; flex-direction: row; justify-content: center;">
+                        <div style="border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px; display: flex; flex-direction: column; align-items: center;">
+                            <div><img src="static/img/html.svg" style="height:100px;" /></div>
+                            
+                            <div>HTML</div>
+                        </div>
+
+                        <div style="border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px; display: flex; flex-direction: column; align-items: center;">
+                            <div><img src="static/img/css.svg" style="height:100px;" /></div>
+                            
+                            <div>CSS</div>
+                        </div>
+
+                        <div style="border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px; display:flex; flex-direction: column; align-items:center;">
+                            <div><img src="static/img/javascript.svg" style="height:100px;" /></div>
+                            
+                            <div>JavaScript</div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="footer">
+            <div>
+
+                <span style="font-weight:bold; font-size:20px; color:grey; ">
+                    Developed by Rachel Tiong for MIS 3033 Exam 2
+
+                </span>
+                
+            </div>
+
+            <div><img src="static/img/logo.svg" style="height:50px;" /></div>
+               
+        </div>
+
+
+
+    </div>
+
+    <br /><br />
+
+    [QEHK]
+    <!--<img src="static/img/a.svg" style="height:50px;" />
+    <img src="static/img/b.svg" style="height:50px;" />
+    <img src="static/img/css.svg" style="height:50px;" />
+    <img src="static/img/head1.png" style="height:50px;" />
+    <img src="static/img/head2.png" style="height:50px;" />
+    <img src="static/img/html.svg" style="height:50px;" />
+    <img src="static/img/javascript.svg" style="height:50px;" />
+    <img src="static/img/linkedin.png" style="height:50px;" />
+    <img src="static/img/logo.svg" style="height:50px;" />
+    <img src="static/img/sqlite.svg" style="height:50px;" />-->
 
 </body>
 
 </html>
+
